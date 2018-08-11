@@ -69,5 +69,6 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 /*fix height for Faculty-advisor-pic*/
 img.Faculty-advisor-pic {
 	height: 351px;
+	width: 280px;
 }
 
