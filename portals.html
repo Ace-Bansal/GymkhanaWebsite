@@ -1,11 +1,3 @@
-<!--
-author: Boostraptheme
-author URL: https://boostraptheme.com
-License: Creative Commons Attribution 4.0 Unported
-License URL: https://creativecommons.org/licenses/by/4.0/
--->
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,94 +22,101 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 
 <body id="page-top">
 
-<!--====================================================
+    <!--====================================================
                          HEADER
 ======================================================-->
-<header>
+    <header>
 
-  <nav class="navbar navbar-expand-lg navbar-light" id="mainNav" data-toggle="affix">
-    <div class="container">
-      <a class="navbar-brand smooth-scroll" href="index.html">
-        <img src="img/glogo-1.png" alt="logo" style="max-width: 100px; max-height: 100px; top: 5px; position: relative;">
-      </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav" data-toggle="affix">
+            <div class="container">
+                <a class="navbar-brand smooth-scroll" href="index.html">
+                    <img src="img/glogo-1.png" alt="logo" style="max-width: 100px; max-height: 100px; top: 5px; position: relative;">
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
 
-            <li class="nav-item" ><a class="nav-link smooth-scroll" href="index.html">Home</a></li>
-            <li class="nav-item" ><a class="nav-link smooth-scroll" href="team.html">advisors</a></li>
-            <li class="nav-item" ><a class="nav-link smooth-scroll" href="portals.html">portals</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="team.html">advisors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="portals.html">portals</a>
+                        </li>
 
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
 
-<!--====================================================
+    <!--====================================================
                     LOGIN OR REGISTER
 ======================================================-->
     <section id="login">
-      <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-          <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-header" align="center">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span class="fa fa-times" aria-hidden="true"></span>
-                      </button>
-                  </div>
-                  <div id="div-forms">
-                      <form id="login-form">
-                          <h3 class="text-center">Login</h3>
-                          <div class="modal-body">
-                              <label for="username">Username</label>
-                              <input id="login_username" class="form-control" type="text" placeholder="Enter username " required>
-                              <label for="username">Password</label>
-                              <input id="login_password" class="form-control" type="password" placeholder="Enter password" required>
-                              <div class="checkbox">
-                                  <label>
-                                      <input type="checkbox"> Remember me
-                                  </label>
-                              </div>
-                          </div>
-                          <div class="modal-footer text-center">
-                              <div>
-                                  <button type="submit" class="btn btn-general btn-white">Login</button>
-                              </div>
-                              <div>
-                                  <button id="login_register_btn" type="button" class="btn btn-link">Register</button>
-                              </div>
-                          </div>
-                      </form>
-                      <form id="register-form" style="display:none;">
-                          <h3 class="text-center">Register</h3>
-                          <div class="modal-body">
-                              <label for="username">Username</label>
-                              <input id="register_username" class="form-control" type="text" placeholder="Enter username" required>
-                              <label for="register_email">E-mailId</label>
-                              <input id="register_email" class="form-control" type="text" placeholder="Enter eMail" required>
-                              <label for="register_password">Password</label>
-                              <input id="register_password" class="form-control" type="password" placeholder="Password" required>
-                          </div>
-                          <div class="modal-footer">
-                              <div>
-                                  <button type="submit" class="btn btn-general btn-white">Register</button>
-                              </div>
-                              <div>
-                                  <button id="register_login_btn" type="button" class="btn btn-link">Log In</button>
-                              </div>
-                          </div>
-                      </form>
-                  </div>
-              </div>
-          </div>
-      </div>
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" align="center">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span class="fa fa-times" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                    <div id="div-forms">
+                        <form id="login-form">
+                            <h3 class="text-center">Login</h3>
+                            <div class="modal-body">
+                                <label for="username">Username</label>
+                                <input id="login_username" class="form-control" type="text" placeholder="Enter username " required>
+                                <label for="username">Password</label>
+                                <input id="login_password" class="form-control" type="password" placeholder="Enter password" required>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="modal-footer text-center">
+                                <div>
+                                    <button type="submit" class="btn btn-general btn-white">Login</button>
+                                </div>
+                                <div>
+                                    <button id="login_register_btn" type="button" class="btn btn-link">Register</button>
+                                </div>
+                            </div>
+                        </form>
+                        <form id="register-form" style="display:none;">
+                            <h3 class="text-center">Register</h3>
+                            <div class="modal-body">
+                                <label for="username">Username</label>
+                                <input id="register_username" class="form-control" type="text" placeholder="Enter username" required>
+                                <label for="register_email">E-mailId</label>
+                                <input id="register_email" class="form-control" type="text" placeholder="Enter eMail" required>
+                                <label for="register_password">Password</label>
+                                <input id="register_password" class="form-control" type="password" placeholder="Password" required>
+                            </div>
+                            <div class="modal-footer">
+                                <div>
+                                    <button type="submit" class="btn btn-general btn-white">Register</button>
+                                </div>
+                                <div>
+                                    <button id="register_login_btn" type="button" class="btn btn-link">Log In</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-<!--====================================================
+    <!--====================================================
                        HOME-P
 ======================================================-->
     <div id="home-p" class="home-p pages-head1 text-center">
@@ -128,7 +127,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         <!--/end container-->
     </div>
 
-<!--====================================================
+    <!--====================================================
                         ABOUT-P1
 ======================================================-->
     <!-- <section id="about-p1">
@@ -150,7 +149,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         </div>
     </section> -->
 
-<!--====================================================
+    <!--====================================================
                        ABOUT-P2
 ======================================================-->
     <!-- <section class="about-p2 bg-gradiant">
@@ -183,7 +182,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         </div>
     </section> -->
 
-<!--====================================================
+    <!--====================================================
                      ABOUT-P3
 ======================================================-->
     <section id="story" class="about-p3">
@@ -194,7 +193,11 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                         <h3>Lost And Found Portal</h3>
                         <div class="heading-border-light"></div>
                         <!-- <p>Number one in our priority list is the success of our students, alumni and their employers. We work hard in the name of the success of our alumni – being among the best and holding the high employment rate. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p> -->
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <a href="#">Go to the portal</a>
                     </div>
                 </div>
@@ -218,7 +221,11 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                         <div class="heading-border-light"></div>
                         <!-- <p>Number one in our priority list is the success of our students, alumni and their employers. We work hard in the name of the success of our alumni – being among the best and holding the high employment rate. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
                         <p> Various versions have evolved over the years, sometimes will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose.</p> -->
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <a href="#">Go to the portal</a>
 
                     </div>
@@ -237,7 +244,11 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                         <h3>VH Booking Portal</h3>
                         <div class="heading-border-light"></div>
                         <!-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p> -->
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <a href="#">Go to the portal</a>
 
                     </div>
@@ -251,7 +262,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         </div>
     </section>
 
-<!--====================================================
+    <!--====================================================
                     CONTACT HOME
 ======================================================-->
     <!-- <div class="overlay-contact-h"></div>
@@ -286,7 +297,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         </div>
     </section>
  -->
-<!--====================================================
+    <!--====================================================
                        NEWS
 ======================================================-->
     <!-- <section id="comp-offer">
@@ -340,7 +351,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         </div>
     </section> -->
 
-<!--====================================================
+    <!--====================================================
                       FOOTER
 ======================================================-->
     <footer>
@@ -348,15 +359,17 @@ License URL: https://creativecommons.org/licenses/by/4.0/
             <div class="footer">
                 <div class="container">
                     <div class="row">
-                      <div class="col-md-3" style="text-align:center;">
-                        <img src="img/glogo-1.png" style="max-width: 100px; max-height: 100px; position: relative; top: -15px;">
-                      </div>
-                      <div class="col-md-6" style="text-align:center;">
-                        <p style="position: relative; top: 15px;">Website designed and developed by <a href="https://github.com/Ace-Bansal">Ekansh Bansal.</a></p>
-                      </div>
-                      <div class="col-md-3" style="text-align:center;">
-                        <img src="img/iiitLogo.gif" style="max-width: 100px; max-height: 100px; position: relative; top: -25px;">
-                      </div>
+                        <div class="col-md-3" style="text-align:center;">
+                            <img src="img/glogo-1.png" style="max-width: 100px; max-height: 100px; position: relative; top: -15px;">
+                        </div>
+                        <div class="col-md-6" style="text-align:center;">
+                            <p style="position: relative; top: 15px;">Website designed and developed by
+                                <a href="https://github.com/Ace-Bansal">Ekansh Bansal.</a>
+                            </p>
+                        </div>
+                        <div class="col-md-3" style="text-align:center;">
+                            <img src="img/iiitLogo.gif" style="max-width: 100px; max-height: 100px; position: relative; top: -25px;">
+                        </div>
 
                     </div>
                 </div>
